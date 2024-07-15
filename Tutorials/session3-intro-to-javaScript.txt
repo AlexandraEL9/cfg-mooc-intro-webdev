@@ -1,0 +1,110 @@
+JS = the language of the web
+v popular
+datatpes, variables and functions
+saved in a js file
+connected to HTML and CSS files to add interactivity
+very versatile
+
+console.log()   function that prints out anything between () to the terminal
+
+--------------------------------variables
+
+have values/ data stored inside and passed around the connected
+
+older versions use var  
+
+modern js uses const and let
+a name would be a const value but taday's date would be let
+--- let can be changed but const cannot.
+
+
+-----------------------------------data types
+
+data types
+
+--primative data types- strings, numbers, floats, booleans
+--Reference data types- objects, arrays, functions
+
+-strings- usually text- must be surrounded by single or double quotes
+
+-numbers- no quotes
+
+-boolean- true or false
+
+-undefined- special value a variable can use if it hasn't been defined 
+
+-null- store nothing- eg 
+
+--operators
+characters that represent a specific mathematical or logical action or process
+eg
+arithmetic operators
+comparison operators
+logical operators
+
+--opperands
+The quantity on which an operation is to be done
+eg
+data tpes like numbers and strings
+
+
+----Arithmetic operators take numerical values as their opperands an return numerical value
+
++
+-
+*
+**
+/
+%
+++ increment
+-- decrement
+
+
+
+CONCATENATION--adding strings together
+
+const name = "Shuri"
+const greeting = "Hi" + name
+
+INTERPOLATION
+    determiningg a value that falls between existing values in a given data set
+const name = "Shuri"
+
+
+
+const name = "Alex";
+const age = 28;
+
+console.log("My name is " + name + " and I am " + age + " years old.");
+
+or
+
+const name = "Alex";
+const age = 28;
+
+console.log(`My name is ${name} and I am ${age} years old.`);
+
+
+----FUNCTIONS
+a block of organised, reusable code used to perform a single, related action eg- add two numbers together
+- have () at the end
+
+JS has built in functione eg math()
+
+addTwo Numbers()          -this calls the function
+
+--parts of a function
+function name- descriptive name
+parameters- the info being given to the function
+
+function code (instructions)
+
+function calculateArea(width, height) {
+    console.log(width*height);
+}
+
+
+add to profile project
+
+
+
