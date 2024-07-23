@@ -1,0 +1,64 @@
+DOM document Object Model
+
+
+-----Advanced JS
+Lots of frameworks
+
+--if statements
+if statement true- function performs
+
+else- do this if the statement is not true- run this function
+
+eg
+if 'something truthy value' {
+console.log("I will run");
+}
+else {
+    console.log("I will not run")
+}
+--for loops
+repeats a condition a certain number of times for as long as the condition is true
+
+eg
+for (begin; conditiion; step) {
+    loop code;
+}
+
+for (i=0; i<5; i=++) {
+    console.log("The number is "+i);
+}
+
+--while loops
+loops through a block of code as long as a specified condition is true
+
+while (condition) {
+    loop code;
+}
+
+while (i < 10) {
+    console.log("The number is " + i)
+}
+
+
+--Objects
+variables that can hold many values inside
+
+eglet girl = {
+    name: "Anne",
+    age: 23,
+    friende: ["Susan", "Marie", "Jenny"],
+    address: {
+        number: 123,
+        street: "Cambridge Road",
+        city: "London"
+    },
+};
+
+---Access value
+girl['name'];
+girl.age;
+girl.friends[0]        //Susan
+girl['address']['street'];     //cambridge Road
+girl.address.city   
+--
+
